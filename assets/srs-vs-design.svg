@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="300" fill="#0f172a"/>
+  <text x="450" y="34" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">SRS = WHAT   |   System Design = HOW</text>
+  <rect x="40" y="60" width="380" height="210" rx="14" fill="#0c4a6e" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="230" y="95" fill="#e0f2fe" font-size="18" font-weight="bold" text-anchor="middle">SRS</text>
+  <g fill="#e0f2fe" font-size="14" text-anchor="middle">
+    <text x="230" y="130">What should the system do?</text>
+    <text x="230" y="160">Who uses it?</text>
+    <text x="230" y="190">What rules must it follow?</text>
+    <text x="230" y="230" font-style="italic" fill="#7dd3fc">"Customer can place an order"</text>
+  </g>
+  <rect x="480" y="60" width="380" height="210" rx="14" fill="#14532d" stroke="#22c55e" stroke-width="2"/>
+  <text x="670" y="95" fill="#dcfce7" font-size="18" font-weight="bold" text-anchor="middle">System Design</text>
+  <g fill="#dcfce7" font-size="14" text-anchor="middle">
+    <text x="670" y="130">How do we build it?</text>
+    <text x="670" y="160">Which modules, tables, APIs?</text>
+    <text x="670" y="190">How do the parts talk?</text>
+    <text x="670" y="230" font-style="italic" fill="#86efac">"Order module + POST /orders"</text>
+  </g>
+  <text x="450" y="170" fill="#e2e8f0" font-size="30" text-anchor="middle">→</text>
+</svg>

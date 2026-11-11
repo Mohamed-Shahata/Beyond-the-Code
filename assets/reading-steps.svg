@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="380" fill="#0f172a"/>
+  <text x="450" y="34" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">Reading a big SRS in 6 steps</text>
+  <g font-size="14" fill="#e2e8f0">
+    <rect x="60" y="60" width="780" height="40" rx="8" fill="#0369a1"/><text x="80" y="86">1. Big picture — Purpose, Scope, Users (write a 3–5 line summary)</text>
+    <rect x="60" y="112" width="780" height="40" rx="8" fill="#0e7490"/><text x="80" y="138">2. Understand the Business — who pays, how money moves</text>
+    <rect x="60" y="164" width="780" height="40" rx="8" fill="#0f766e"/><text x="80" y="190">3. List Actors and split the system into Modules</text>
+    <rect x="60" y="216" width="780" height="40" rx="8" fill="#15803d"/><text x="80" y="242">4. Analyze each Requirement (Actor, Trigger, Flows, Rules)</text>
+    <rect x="60" y="268" width="780" height="40" rx="8" fill="#a16207"/><text x="80" y="294">5. Keep a Question Log — never invent answers</text>
+    <rect x="60" y="320" width="780" height="40" rx="8" fill="#b45309"/><text x="80" y="346">6. Self-check: can you explain the project without opening the file?</text>
+  </g>
+</svg>

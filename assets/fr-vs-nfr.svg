@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="320" fill="#0f172a"/>
+  <text x="450" y="34" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">FR vs NFR — same feature, two questions</text>
+  <rect x="40" y="60" width="380" height="230" rx="14" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+  <text x="230" y="95" fill="#dbeafe" font-size="18" font-weight="bold" text-anchor="middle">FR — Functional</text>
+  <text x="230" y="120" fill="#bfdbfe" font-size="13" text-anchor="middle">What does the system DO?</text>
+  <g fill="#dbeafe" font-size="14" text-anchor="middle">
+    <text x="230" y="165">Customer can register</text>
+    <text x="230" y="195">Customer can add to cart</text>
+    <text x="230" y="225">Customer can place an order</text>
+    <text x="230" y="255">Admin can edit a product</text>
+  </g>
+  <rect x="480" y="60" width="380" height="230" rx="14" fill="#7c2d12" stroke="#fb923c" stroke-width="2"/>
+  <text x="670" y="95" fill="#ffedd5" font-size="18" font-weight="bold" text-anchor="middle">NFR — Non-Functional</text>
+  <text x="670" y="120" fill="#fed7aa" font-size="13" text-anchor="middle">HOW WELL does it do it?</text>
+  <g fill="#ffedd5" font-size="14" text-anchor="middle">
+    <text x="670" y="165">95% of listing requests &lt; 500ms</text>
+    <text x="670" y="195">Passwords never stored as plain text</text>
+    <text x="670" y="225">99.9% monthly availability</text>
+    <text x="670" y="255">Clear error message on failed payment</text>
+  </g>
+</svg>

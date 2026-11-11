@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="340" fill="#0f172a"/>
+  <text x="450" y="34" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">Stakeholder vs Actor</text>
+  <circle cx="330" cy="190" r="140" fill="#4c1d95" fill-opacity="0.55" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="540" cy="190" r="140" fill="#064e3b" fill-opacity="0.55" stroke="#34d399" stroke-width="2"/>
+  <text x="250" y="80" fill="#ddd6fe" font-size="16" font-weight="bold" text-anchor="middle">Stakeholders</text>
+  <text x="620" y="80" fill="#a7f3d0" font-size="16" font-weight="bold" text-anchor="middle">Actors</text>
+  <g fill="#f1f5f9" font-size="13" text-anchor="middle">
+    <text x="245" y="160">Business Owner</text>
+    <text x="245" y="185">Accounting Team</text>
+    <text x="245" y="210">Product Manager</text>
+    <text x="435" y="150" font-weight="bold">Customer</text>
+    <text x="435" y="175" font-weight="bold">Admin</text>
+    <text x="625" y="160">Payment Gateway</text>
+    <text x="625" y="185">Shipping API</text>
+  </g>
+  <text x="435" y="300" fill="#94a3b8" font-size="12" text-anchor="middle">Overlap = people who care about the system AND use it. Not every stakeholder is an actor.</text>
+</svg>
