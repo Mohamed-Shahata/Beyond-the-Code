@@ -22,13 +22,13 @@ SRS اختصار Software Requirements Specification، يعني وثيقة مو�
 
 بدل ما الفكرة تفضل كلام في Meeting، بتتحول لمتطلبات مكتوبة يقدر يرجع لها الـ Business والـ Developers والـ QA.
 
-![SRS journey](../assets/srs-journey.svg)
+![SRS journey](../../assets/srs-journey.svg)
 
 الـ SRS بتيجي بعد جمع المتطلبات وقبل التصميم والتنفيذ. ومش معنى كده إن المتطلبات مبتتغيرش، التغيير طبيعي، بس المهم إنه يتسجل ويتوافق عليه بدل ما يحصل بالصدفة.
 
 ## الفرق بين SRS و System Design
 
-![SRS vs Design](../assets/srs-vs-design.svg)
+![SRS vs Design](../../assets/srs-vs-design.svg)
 
 الاتنين مرتبطين، بس بيجاوبوا على سؤالين مختلفين. الـ SRS بتقول **إيه المطلوب**، والـ System Design بيقول **هنبنيه إزاي**. الـ Design هو موضوع Part 03.
 

@@ -1,36 +1,26 @@
-<div dir="rtl">
-
 # Beyond the Code | ما ورا الكود
 
-سلسلة عن إزاي **تفكر** قبل ما تكتب كود. مش Syntax، لكن طريقة تفكير بناء Software System من الفكرة لحد الإنتاج.
+A series on how to think before you write code, from the first idea to production.
 
-المحتوى في ملفات قصيرة، ومثال ثابت بنكمل عليه في السلسلة كلها: **E-commerce System**.
+سلسلة عن إزاي تفكر قبل ما تكتب كود، من الفكرة لحد الإنتاج.
 
-## خريطة السلسلة
+## Choose your language / اختار اللغة
 
-| الجزء | الموضوع | المستوى | الحالة |
-|---|---|---|---|
-| [Part 01](./Part-01-SRS/) | Understanding the SRS | مبتدئ | جاهز |
-| Part 02 | Understanding the Business | مبتدئ | قريبًا |
-| Part 03 | System Design | متوسط | قريبًا |
-| Part 04 | AI-Assisted Development | متوسط | قريبًا |
-| Part 05 | Production-Ready | متقدم | قريبًا |
+- [English](./en/README.md)
+- [العربية (مصري)](./ar/README.md)
 
-## Part 01 — Understanding the SRS
+## Repository Structure
 
-| # | الملف | الوقت |
-|---|---|---|
-| 01 | [يعني إيه SRS؟](./Part-01-SRS/01-what-is-srs.md) | 4 دقايق |
-| 02 | [ست مصطلحات تفهم بيهم أي SRS](./Part-01-SRS/02-six-terms.md) | 6 دقايق |
-| 03 | [إزاي تقرا SRS من غير ما تتوه](./Part-01-SRS/03-how-to-read-srs.md) | 5 دقايق |
-| 04 | [Cheat Sheet](./Part-01-SRS/04-cheat-sheet.md) | دقيقتين |
-| 05 | [التمرين](./Part-01-SRS/05-exercise.md) | 15 دقيقة |
-| 06 | [الحل](./Part-01-SRS/06-solution.md) | 4 دقايق |
+```
+Beyond-The-Code/
+├── README.md              <- you are here
+├── assets/                <- shared diagrams (SVG), used by both languages
+├── ar/                    <- Egyptian Arabic version
+│   ├── README.md
+│   └── Part-01-SRS/
+└── en/                    <- English version
+    ├── README.md
+    └── Part-01-SRS/
+```
 
-## إزاي تذاكر؟
-
-1. اقرأ ملف واحد في الجلسة.
-2. راجع الـ Cheat Sheet.
-3. حل التمرين قبل ما تفتح الحل.
-
-</div>
+Each Part folder follows the same layout in both languages: short explanation files, a Cheat Sheet, a practical exercise, and its solution. The running example across the series is an E-commerce System.
