@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 01 — يعني إيه SRS؟
 
 وقت القراءة: 4 دقايق
@@ -55,3 +57,5 @@ SRS اختصار Software Requirements Specification، يعني وثيقة مو�
 ---
 
 الرئيسية: [README](../README.md) | الملف التالي: [02 — ست مصطلحات](./02-six-terms.md)
+
+</div>

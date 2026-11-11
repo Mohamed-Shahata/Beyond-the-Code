@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # 03 — إزاي تقرا SRS من غير ما تتوه؟
 
 وقت القراءة: 5 دقايق
@@ -26,11 +28,11 @@
 
 ```mermaid
 flowchart TD
-    A["Place Order"] --> B{"الـ Cart فاضية؟"}
-    B -- "آه" --> X["نرفض الطلب"]
-    B -- "لأ" --> C{"المنتجات متاحة؟"}
-    C -- "لأ" --> X
-    C -- "آه" --> D["ننشئ Order"]
+    A["Place Order"] --> B{"Cart empty?"}
+    B -- "Yes" --> X["Reject order"]
+    B -- "No" --> C{"Products available?"}
+    C -- "No" --> X
+    C -- "Yes" --> D["Create Order"]
 ```
 
 ## هل المتطلب ده جاهز للكود؟
@@ -48,3 +50,5 @@ flowchart TD
 ---
 
 السابق: [02](./02-six-terms.md) | الملف التالي: [04 — Cheat Sheet](./04-cheat-sheet.md)
+
+</div>
