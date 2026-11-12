@@ -13,7 +13,7 @@
 | الجزء | الموضوع | المستوى | الحالة |
 |---|---|---|---|
 | [Part 01](./Part-01-SRS/) | Understanding the SRS | مبتدئ | جاهز |
-| Part 02 | Understanding the Business | مبتدئ | قريبًا |
+| [Part 02](./Part-02-Business/) | Understanding the Business | مبتدئ | جاهز |
 | Part 03 | System Design | متوسط | قريبًا |
 | Part 04 | AI-Assisted Development | متوسط | قريبًا |
 | Part 05 | Production-Ready | متقدم | قريبًا |
@@ -28,6 +28,17 @@
 | 04 | [Cheat Sheet](./Part-01-SRS/04-cheat-sheet.md) | دقيقتين |
 | 05 | [التمرين](./Part-01-SRS/05-exercise.md) | 15 دقيقة |
 | 06 | [الحل](./Part-01-SRS/06-solution.md) | 4 دقايق |
+
+## Part 02 — Understanding the Business
+
+| # | الملف | الوقت |
+|---|---|---|
+| 01 | [ليه تفهم الـ Business قبل الكود؟](./Part-02-Business/01-why-business-first.md) | 4 دقايق |
+| 02 | [ست أسئلة تفهم بيهم أي Business](./Part-02-Business/02-six-questions.md) | 6 دقايق |
+| 03 | [الفلوس ورحلة الطلب](./Part-02-Business/03-money-and-order-flow.md) | 5 دقايق |
+| 04 | [Cheat Sheet](./Part-02-Business/04-cheat-sheet.md) | دقيقتين |
+| 05 | [التمرين](./Part-02-Business/05-exercise.md) | 15 دقيقة |
+| 06 | [الحل](./Part-02-Business/06-solution.md) | 4 دقايق |
 
 ## إزاي تذاكر؟
 

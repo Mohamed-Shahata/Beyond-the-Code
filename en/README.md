@@ -11,7 +11,7 @@ The content is split into short files, and one running example carries through t
 | Part | Topic | Level | Status |
 |---|---|---|---|
 | [Part 01](./Part-01-SRS/) | Understanding the SRS | Beginner | Ready |
-| Part 02 | Understanding the Business | Beginner | Coming soon |
+| [Part 02](./Part-02-Business/) | Understanding the Business | Beginner | Ready |
 | Part 03 | System Design | Intermediate | Coming soon |
 | Part 04 | AI-Assisted Development | Intermediate | Coming soon |
 | Part 05 | Production-Ready | Advanced | Coming soon |
@@ -26,6 +26,17 @@ The content is split into short files, and one running example carries through t
 | 04 | [Cheat Sheet](./Part-01-SRS/04-cheat-sheet.md) | 2 min |
 | 05 | [Exercise](./Part-01-SRS/05-exercise.md) | 15 min |
 | 06 | [Solution](./Part-01-SRS/06-solution.md) | 4 min |
+
+## Part 02: Understanding the Business
+
+| # | File | Time |
+|---|---|---|
+| 01 | [Why Understand the Business Before the Code?](./Part-02-Business/01-why-business-first.md) | 4 min |
+| 02 | [Six Questions That Unlock Any Business](./Part-02-Business/02-six-questions.md) | 6 min |
+| 03 | [Money and the Order Journey](./Part-02-Business/03-money-and-order-flow.md) | 5 min |
+| 04 | [Cheat Sheet](./Part-02-Business/04-cheat-sheet.md) | 2 min |
+| 05 | [Exercise](./Part-02-Business/05-exercise.md) | 15 min |
+| 06 | [Solution](./Part-02-Business/06-solution.md) | 4 min |
 
 ## How to Study
 
