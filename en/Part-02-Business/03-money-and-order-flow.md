@@ -32,8 +32,17 @@ These statuses are an illustrative example, and the final decision belongs to th
 
 Notice there are two paths into Refunded, and the reason differs for each:
 
-- **From Paid:** the customer paid and the order was cancelled before delivery, so money goes back without any product coming back.
-- **From Delivered:** the customer received the product and then returned it, so money goes back after the product returns to stock and is inspected.
+- **From Paid:** the customer paid and the order was cancelled before delivery, so the store refunds the customer. No product comes back, because the customer never received anything.
+- **From Delivered:** the customer received the product and then decided to return it (wrong size, a defect, or a change of mind), so the store takes it back and refunds the customer. The product goes back to stock after it is inspected.
+
+The refund goes back to the customer through the original payment method if they paid online (via the Payment Gateway). With Cash on Delivery (COD), it goes back in whatever way the store has agreed, such as a transfer or cash.
+
+A return after delivery opens questions for the Business:
+
+- Within how many days of delivery is a return allowed?
+- Is it allowed for any reason, or only for certain ones (a defect, the wrong size)?
+- Who pays for return shipping?
+- Is the refund issued before the product arrives, or only after it is inspected?
 
 The diagram also leaves one deliberate question open: if an order is cancelled while it is in Processing or Shipped, where does it go? That is a Business decision, and its place is the Question Log.
 
