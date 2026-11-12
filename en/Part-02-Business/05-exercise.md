@@ -16,9 +16,10 @@ Payment is cash to the courier or online. The laundry offers monthly subscriptio
 
 ## Questions
 
-1. Answer the six Business questions for this Business.
+1. Answer the six Business questions for this Business. If a question does not apply, write "not applicable" and why.
 2. Draw the Order Statuses from pickup to delivery.
 3. Write 5 questions for the Business that the description leaves unclear, and explain why each matters.
+4. Extra thinking: if this were an internal company system with no money at all (a leave system, say), what would you replace the money question with?
 
 ---
 

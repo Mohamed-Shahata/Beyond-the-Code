@@ -30,7 +30,7 @@ None of them is technical. They are all Business decisions, and the Database and
 
 ## You Don't Have to Be a Domain Expert
 
-What is expected of you is to understand any new Business in a short time, even if it is the first time you hear about its field. That is done with a fixed set of questions, which is the topic of the next file.
+What is expected of you is to understand any new Business in a short time, even if it is the first time you hear about its field. That is done with a set of starter questions, which is the topic of the next file.
 
 ---
 

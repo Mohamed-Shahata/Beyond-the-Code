@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" font-family="Arial, Helvetica, sans-serif">
-  <rect width="900" height="450" fill="#0f172a"/>
-  <text x="450" y="34" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">Six questions to understand any Business</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="470" fill="#0f172a"/>
+  <text x="450" y="34" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">Six starter questions for any Business</text>
 
   <rect x="40" y="60" width="270" height="170" rx="12" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
   <text x="175" y="92" fill="#dbeafe" font-size="16" font-weight="bold" text-anchor="middle">1. Customer and User</text>
@@ -15,8 +15,8 @@
   <text x="450" y="188" fill="#dcfce7" font-size="13" text-anchor="middle">Buy from home, no store visit</text>
 
   <rect x="590" y="60" width="270" height="170" rx="12" fill="#7c2d12" stroke="#fb923c" stroke-width="2"/>
-  <text x="725" y="92" fill="#ffedd5" font-size="16" font-weight="bold" text-anchor="middle">3. Money</text>
-  <text x="725" y="122" fill="#fed7aa" font-size="13" text-anchor="middle">How does money move?</text>
+  <text x="725" y="92" fill="#ffedd5" font-size="16" font-weight="bold" text-anchor="middle">3. What Moves</text>
+  <text x="725" y="122" fill="#fed7aa" font-size="13" text-anchor="middle">Money, data, approvals?</text>
   <text x="725" y="165" fill="#fdba74" font-size="12" text-anchor="middle">E-commerce example:</text>
   <text x="725" y="188" fill="#ffedd5" font-size="13" text-anchor="middle">Customer pays, gateway takes a fee</text>
 
@@ -37,4 +37,5 @@
   <text x="725" y="312" fill="#fbcfe8" font-size="13" text-anchor="middle">Who else is involved?</text>
   <text x="725" y="355" fill="#f9a8d4" font-size="12" text-anchor="middle">E-commerce example:</text>
   <text x="725" y="378" fill="#fce7f3" font-size="13" text-anchor="middle">Payment Gateway, Shipping company</text>
+  <text x="450" y="450" fill="#94a3b8" font-size="12" text-anchor="middle">A starting point: add, drop, or reword questions to fit the Business.</text>
 </svg>

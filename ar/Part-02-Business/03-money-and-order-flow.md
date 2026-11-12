@@ -22,15 +22,22 @@
 stateDiagram-v2
     [*] --> Pending
     Pending --> Paid: payment confirmed
-    Pending --> Cancelled: customer cancels or payment fails
+    Pending --> Cancelled: cancelled or payment failed, no money taken
     Paid --> Processing
+    Paid --> Refunded: cancelled after payment, money returned
     Processing --> Shipped
     Shipped --> Delivered
-    Paid --> Refunded: refund approved
-    Delivered --> Refunded: return approved
+    Delivered --> Refunded: customer returns the product
 ```
 
 الحالات دي مثال للتوضيح، والقرار النهائي للـ Business.
+
+لاحظ إن فيه طريقين لحالة Refunded، والسبب مختلف في كل واحد:
+
+- **من Paid:** العميل دفع والطلب اتلغى قبل ما يتسلم، فالفلوس بترجع من غير ما فيه منتج يرجع.
+- **من Delivered:** العميل استلم المنتج وبعدين رجّعه، فالفلوس بترجع بعد ما المنتج يرجع المخزون ويتفحص.
+
+والرسمة سايبة سؤال مقصود: لو الطلب اتلغى وهو في Processing أو Shipped، يروح فين؟ ده قرار Business، ومكانه الـ Question Log.
 
 ## الرسمة بتجاوب على أسئلة Part 01
 

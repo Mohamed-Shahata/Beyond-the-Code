@@ -8,7 +8,7 @@ This is a model solution, not the only correct answer. If you found a point that
 |---|---|
 | Customer and User | The customer orders and pays. Users: the customer, the courier, laundry staff, the admin |
 | Problem solved | The customer saves time: no trip to the laundry and no waiting |
-| Money | The customer pays by weight and wash type, cash to the courier or online. Monthly subscriptions are steady income, and compensation is a cost |
+| What moves (money) | The customer pays by weight and wash type, cash to the courier or online. Monthly subscriptions are steady income, and compensation is a cost |
 | Core operations | Request a pickup, pick up and weigh, wash, deliver, pay |
 | Rules | Pricing by weight and type, subscription discount, compensation for damage |
 | Other parties | Payment Gateway, a notification service (SMS or similar) |
@@ -40,9 +40,13 @@ Note: the payment state (Paid or Unpaid) can be kept separate from the order sta
 | Q-04 | Does the monthly subscription have a weight cap? What happens if the customer goes over it or doesn't use it all? | Defines discount calculation and rollover |
 | Q-05 | When does the courier hand the collected cash to the laundry? | Affects accounting and reporting |
 
+## 4) Extra Thinking
+
+In an internal leave system with no money, the money question becomes "what moves?": leave requests, the manager's approval, and the leave balance that gets deducted. The remaining questions stay roughly the same: the customer is the company, the users are employees and managers, and the rules look like "leave needs approval" and "the balance cannot go negative" (examples).
+
 ## What You Took Away from This Part
 
-- There are six fixed questions that unlock any Business.
+- There are six starter questions for understanding any Business, and you add to them or drop from them as needed.
 - Order statuses are the easiest way to see all the operations in one diagram.
 - Most of the ambiguity you find is a Business decision, and its place is the Question Log.
 

@@ -20,15 +20,22 @@ The best way to understand the operations is to draw the Order Statuses. Each st
 stateDiagram-v2
     [*] --> Pending
     Pending --> Paid: payment confirmed
-    Pending --> Cancelled: customer cancels or payment fails
+    Pending --> Cancelled: cancelled or payment failed, no money taken
     Paid --> Processing
+    Paid --> Refunded: cancelled after payment, money returned
     Processing --> Shipped
     Shipped --> Delivered
-    Paid --> Refunded: refund approved
-    Delivered --> Refunded: return approved
+    Delivered --> Refunded: customer returns the product
 ```
 
 These statuses are an illustrative example, and the final decision belongs to the Business.
+
+Notice there are two paths into Refunded, and the reason differs for each:
+
+- **From Paid:** the customer paid and the order was cancelled before delivery, so money goes back without any product coming back.
+- **From Delivered:** the customer received the product and then returned it, so money goes back after the product returns to stock and is inspected.
+
+The diagram also leaves one deliberate question open: if an order is cancelled while it is in Processing or Shipped, where does it go? That is a Business decision, and its place is the Question Log.
 
 ## The Diagram Answers Part 01's Questions
 

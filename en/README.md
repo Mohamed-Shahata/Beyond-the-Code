@@ -32,7 +32,7 @@ The content is split into short files, and one running example carries through t
 | # | File | Time |
 |---|---|---|
 | 01 | [Why Understand the Business Before the Code?](./Part-02-Business/01-why-business-first.md) | 4 min |
-| 02 | [Six Questions That Unlock Any Business](./Part-02-Business/02-six-questions.md) | 6 min |
+| 02 | [Six Starter Questions for Any Business](./Part-02-Business/02-six-questions.md) | 6 min |
 | 03 | [Money and the Order Journey](./Part-02-Business/03-money-and-order-flow.md) | 5 min |
 | 04 | [Cheat Sheet](./Part-02-Business/04-cheat-sheet.md) | 2 min |
 | 05 | [Exercise](./Part-02-Business/05-exercise.md) | 15 min |

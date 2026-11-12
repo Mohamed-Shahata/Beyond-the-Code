@@ -34,7 +34,7 @@
 | # | الملف | الوقت |
 |---|---|---|
 | 01 | [ليه تفهم الـ Business قبل الكود؟](./Part-02-Business/01-why-business-first.md) | 4 دقايق |
-| 02 | [ست أسئلة تفهم بيهم أي Business](./Part-02-Business/02-six-questions.md) | 6 دقايق |
+| 02 | [ست أسئلة تبدأ بيها لفهم أي Business](./Part-02-Business/02-six-questions.md) | 6 دقايق |
 | 03 | [الفلوس ورحلة الطلب](./Part-02-Business/03-money-and-order-flow.md) | 5 دقايق |
 | 04 | [Cheat Sheet](./Part-02-Business/04-cheat-sheet.md) | دقيقتين |
 | 05 | [التمرين](./Part-02-Business/05-exercise.md) | 15 دقيقة |

@@ -6,10 +6,12 @@ Reading time: 2 minutes. Review it before starting the exercise.
 
 1. Who is the customer and who is the user?
 2. What problem do we solve?
-3. How does money move?
+3. What moves? (money, data, approvals)
 4. What are the core operations?
 5. What rules govern the work?
 6. Who are the other parties?
+
+These questions are a starting point. Add to them or drop from them depending on the Business.
 
 ## Terms
 

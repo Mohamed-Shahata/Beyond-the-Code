@@ -1,8 +1,8 @@
-# 02: Six Questions That Unlock Any Business
+# 02: Six Starter Questions for Any Business
 
 Reading time: 6 minutes
 
-Any Business, whatever its field, can be summed up in six questions. If you can answer them, you have enough of a picture to start from.
+Here are six questions that help you start understanding any Business, whatever its field. This is not a fixed list to apply word for word. It is a starting point: add to it or drop from it depending on the Business in front of you (we cover that at the end of this file). If you can answer them, you have enough of a picture to start from.
 
 ![Six questions](../../assets/business-six-questions.svg)
 
@@ -18,9 +18,11 @@ This is the Value: why would people use this service at all? Without a clear ans
 
 In E-commerce: customers buy from home without going out, and merchants reach more customers than their shop could.
 
-## 3) How Does Money Move?
+## 3) What Moves?
 
-Ask: who pays? To whom? When? And where are fees or commissions taken? This is the most important question, because it shapes Payments, Refunds, and reporting.
+In most Businesses, what moves is money, so ask: who pays? To whom? When? And where are fees or commissions taken? This shapes Payments, Refunds, and reporting.
+
+But not every system involves money. If it doesn't, ask the same question in another form: what moves between people and the system? It could be data, requests, approvals, or time. In an internal leave system, for example: an employee submits a request, a manager approves, and the balance is deducted. And if the app is free, still ask what funds it (ads? a sponsor?), because that affects what gets built.
 
 In E-commerce: the customer pays, the Payment Gateway deducts a fee, and the rest reaches the merchant.
 
@@ -43,6 +45,13 @@ Any outside party the work depends on: a Payment Gateway, a shipping company, an
 In E-commerce: the Payment Gateway and the shipping company.
 
 > If you can't answer one of them, that is not a failure. It is the first line of your Question Log.
+
+## These Questions Are a Starting Point, Not a Fixed List
+
+Add to them or drop from them depending on the Business:
+
+- **A question doesn't apply?** Don't leave it blank. Write "not applicable" and why, because that is itself information about the Business.
+- **A question is missing?** Add it. Examples: are there laws or licenses we must follow? How much usage do we expect? What counts as success for this project?
 
 ---
 
